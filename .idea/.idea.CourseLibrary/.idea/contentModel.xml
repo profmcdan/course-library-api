@@ -6,7 +6,9 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="AuthorsController.cs" t="Include" />
+        </e>
         <e p="CourseLibrary.csproj" t="IncludeRecursive" />
         <e p="DbContexts" t="Include">
           <e p="CourseLibraryContext.cs" t="Include" />

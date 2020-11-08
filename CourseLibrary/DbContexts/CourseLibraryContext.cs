@@ -1,7 +1,6 @@
 using CourseLibrary.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
-using CourseLibrary.Entities;
 
 namespace CourseLibrary.DbContexts
 {
