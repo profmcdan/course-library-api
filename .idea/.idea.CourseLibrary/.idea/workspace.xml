@@ -14,8 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b7b965-68c9-49f7-9bc9-8c750115648b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CourseLibrary/Helpers/DateTimeOffsetExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CourseLibrary/Models/AuthoDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseLibrary/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +40,10 @@
         <option value="$PROJECT_DIR$/CourseLibrary/appsettings.json" />
         <option value="$PROJECT_DIR$/CourseLibrary/Readme.md" />
         <option value="$PROJECT_DIR$/CourseLibrary/DbContexts/CourseLibraryContext.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" />
         <option value="$PROJECT_DIR$/CourseLibrary/Startup.cs" />
+        <option value="$PROJECT_DIR$/CourseLibrary/Models/AuthoDto.cs" />
+        <option value="$PROJECT_DIR$/CourseLibrary/Helpers/DateTimeOffsetExtensions.cs" />
+        <option value="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604467811890</updated>
       <workItem from="1604467842543" duration="11472000" />
-      <workItem from="1604993735449" duration="285000" />
+      <workItem from="1604993735449" duration="2211000" />
     </task>
     <servers />
   </component>
@@ -140,28 +145,28 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.2048.1129@0.23.1440.877" timestamp="1604468419239" />
-    <state width="1524" height="199" key="GridCell.Tab.0.bottom" timestamp="1604933088296">
+    <state width="1617" height="202" key="GridCell.Tab.0.bottom" timestamp="1604996556771">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1524" height="199" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604933088296" />
+    <state width="1617" height="202" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604996556771" />
     <state width="1771" height="199" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548776" />
     <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604784172671" />
-    <state width="1524" height="199" key="GridCell.Tab.0.center" timestamp="1604933088295">
+    <state width="1617" height="202" key="GridCell.Tab.0.center" timestamp="1604996556769">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1524" height="199" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604933088295" />
+    <state width="1617" height="202" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604996556769" />
     <state width="1771" height="199" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548775" />
     <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604784172671" />
-    <state width="1524" height="199" key="GridCell.Tab.0.left" timestamp="1604933088294">
+    <state width="1617" height="202" key="GridCell.Tab.0.left" timestamp="1604996556768">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1524" height="199" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604933088294" />
+    <state width="1617" height="202" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604996556768" />
     <state width="1771" height="199" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548775" />
     <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604784172670" />
-    <state width="1524" height="199" key="GridCell.Tab.0.right" timestamp="1604933088296">
+    <state width="1617" height="202" key="GridCell.Tab.0.right" timestamp="1604996556770">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1524" height="199" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604933088296" />
+    <state width="1617" height="202" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604996556770" />
     <state width="1771" height="199" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548776" />
     <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604784172671" />
   </component>

@@ -18,10 +18,16 @@
           <e p="Author.cs" t="Include" />
           <e p="Course.cs" t="Include" />
         </e>
+        <e p="Helpers" t="Include">
+          <e p="DateTimeOffsetExtensions.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20201107055928_InitialMigration.cs" t="Include" />
           <e p="20201107055928_InitialMigration.Designer.cs" t="Include" />
           <e p="CourseLibraryContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AuthoDto.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
