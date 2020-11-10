@@ -8,6 +8,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AuthorsController.cs" t="Include" />
+          <e p="CoursesController.cs" t="Include" />
         </e>
         <e p="CourseLibrary.csproj" t="IncludeRecursive" />
         <e p="DbContexts" t="Include">
@@ -27,7 +28,8 @@
           <e p="CourseLibraryContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
-          <e p="AuthoDto.cs" t="Include" />
+          <e p="AuthorDto.cs" t="Include" />
+          <e p="CourseDto.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -38,6 +40,7 @@
         </e>
         <e p="Profiles" t="Include">
           <e p="AuthorsProfile.cs" t="Include" />
+          <e p="CoursesProfile.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
