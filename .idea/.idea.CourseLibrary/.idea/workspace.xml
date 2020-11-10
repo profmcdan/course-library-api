@@ -14,11 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b7b965-68c9-49f7-9bc9-8c750115648b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CourseLibrary/Helpers/DateTimeOffsetExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseLibrary/Models/AuthoDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CourseLibrary/Profiles/AuthorsProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/CourseLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/CourseLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +41,10 @@
         <option value="$PROJECT_DIR$/CourseLibrary/appsettings.json" />
         <option value="$PROJECT_DIR$/CourseLibrary/Readme.md" />
         <option value="$PROJECT_DIR$/CourseLibrary/DbContexts/CourseLibraryContext.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Startup.cs" />
         <option value="$PROJECT_DIR$/CourseLibrary/Models/AuthoDto.cs" />
         <option value="$PROJECT_DIR$/CourseLibrary/Helpers/DateTimeOffsetExtensions.cs" />
+        <option value="$PROJECT_DIR$/CourseLibrary/Startup.cs" />
+        <option value="$PROJECT_DIR$/CourseLibrary/Profiles/AuthorsProfile.cs" />
         <option value="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" />
       </list>
     </option>
@@ -115,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604467811890</updated>
       <workItem from="1604467842543" duration="11472000" />
-      <workItem from="1604993735449" duration="2211000" />
+      <workItem from="1604993735449" duration="3747000" />
     </task>
     <servers />
   </component>

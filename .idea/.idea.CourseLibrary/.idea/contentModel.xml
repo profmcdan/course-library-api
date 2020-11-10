@@ -36,6 +36,9 @@
             </e>
           </e>
         </e>
+        <e p="Profiles" t="Include">
+          <e p="AuthorsProfile.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
