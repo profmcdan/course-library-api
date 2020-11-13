@@ -14,12 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b7b965-68c9-49f7-9bc9-8c750115648b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CourseLibrary/ResourceParameters/AuthorsResourceParameters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CourseLibrary/Models/CreateAuthorDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CourseLibrary/Models/CreateCourseDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseLibrary/Services/CourseLibraryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Services/CourseLibraryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseLibrary/Services/ICourseLibraryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Services/ICourseLibraryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Controllers/CoursesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Controllers/CoursesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/CourseLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/CourseLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Entities/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Entities/Course.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Profiles/AuthorsProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Profiles/AuthorsProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Profiles/CoursesProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Profiles/CoursesProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,29 +36,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/CourseLibrary/Entities/Author.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Entities/Course.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Program.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/CourseLibrary/appsettings.json" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Readme.md" />
-        <option value="$PROJECT_DIR$/CourseLibrary/DbContexts/CourseLibraryContext.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Models/AuthoDto.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Helpers/DateTimeOffsetExtensions.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Profiles/AuthorsProfile.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Models/AuthorDto.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Models/CourseDto.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Profiles/CoursesProfile.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Controllers/CoursesController.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Startup.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/ResourceParameters/AuthorsResourceParameters.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Services/ICourseLibraryRepository.cs" />
-        <option value="$PROJECT_DIR$/CourseLibrary/Services/CourseLibraryRepository.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/CourseLibrary/Profiles/AuthorsProfile.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Entities/Course.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Models/CreateCourseDto.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Profiles/CoursesProfile.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Controllers/CoursesController.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Controllers/AuthorsController.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Models/CreateAuthorDto.cs" />
+      <option value="$PROJECT_DIR$/CourseLibrary/Startup.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1joQ8gfht7o0p1yjjXP2Hb7T2s5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -123,7 +116,10 @@
       <updated>1604467811890</updated>
       <workItem from="1604467842543" duration="11472000" />
       <workItem from="1604993735449" duration="6480000" />
-      <workItem from="1605095136995" duration="2686000" />
+      <workItem from="1605095136995" duration="3187000" />
+      <workItem from="1605271137996" duration="167000" />
+      <workItem from="1605272255148" duration="143000" />
+      <workItem from="1605272692109" duration="3864000" />
     </task>
     <servers />
   </component>
@@ -147,35 +143,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604468419239">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.2048.1129@0.23.1440.877" timestamp="1604468419239" />
-    <state width="1617" height="202" key="GridCell.Tab.0.bottom" timestamp="1605174683755">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1617" height="202" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1605174683755" />
-    <state width="1771" height="199" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548776" />
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604784172671" />
-    <state width="1617" height="202" key="GridCell.Tab.0.center" timestamp="1605174683754">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1617" height="202" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1605174683754" />
-    <state width="1771" height="199" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548775" />
-    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604784172671" />
-    <state width="1617" height="202" key="GridCell.Tab.0.left" timestamp="1605174683753">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1617" height="202" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1605174683753" />
-    <state width="1771" height="199" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548775" />
-    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604784172670" />
-    <state width="1617" height="202" key="GridCell.Tab.0.right" timestamp="1605174683754">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1617" height="202" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1605174683754" />
-    <state width="1771" height="199" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2048.1129@1440.23.2048.1129" timestamp="1604856548776" />
-    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604784172671" />
   </component>
 </project>

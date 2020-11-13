@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{1BD50EAA-1919-49B9-84B7-38BA2F93BF25}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CourseLibrary/Controllers/AuthorsController.cs">
+    <Files>
+      <File FileName="CourseLibrary/Controllers/AuthorsController.cs" Line="47" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CourseLibrary" expanded="True">
+            <Node name="CourseLibrary" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AuthorsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CourseLibrary PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
